@@ -1,6 +1,6 @@
-import React from 'react';
-import styles from './Hero.module.css';
-import { AiOutlineSearch } from 'react-icons/ai';
+import React from "react";
+import styles from "./Hero.module.css";
+import { AiOutlineSearch } from "react-icons/ai";
 
 const Hero = () => {
   return (
@@ -10,8 +10,8 @@ const Hero = () => {
           <label>Where</label>
           <input
             className={styles.text_input}
-            type='text'
-            placeholder='Search Location'
+            type="text"
+            placeholder="Search Location"
           />
         </div>
         <div className={styles.from}>
@@ -22,11 +22,11 @@ const Hero = () => {
         <div className={styles.until}>
           <span className={styles.border}></span>
           <label>Until</label>
-          <input type='date' />
+          <input type="date" />
         </div>
         <div className={styles.search_btn}>
-          <button className={styles.btn}>Search for cars</button>
-          <AiOutlineSearch size={25} className={styles.icon} />
+          <AiOutlineSearch className={styles.icon} />
+          <button className={styles.btn}>search for cars</button>
         </div>
       </form>
     </div>
